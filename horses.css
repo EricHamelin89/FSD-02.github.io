@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Lobster+Two:wght@400;700&display=swap');
+@font-face{
+	font-family: 'Cowboys';
+	src: url("../fonts/Cowboys.otf");
+}
+
+/*
+	font-family: 'Barlow', sans-serif;
+	font-family: 'Lobster Two', cursive;
+
+	yellow: #F2C53D
+	brown: #594918
+*/
+
+body{
+	background-color: #F2C53D;
+	color: #594918;
+	font-family: 'Barlow', sans-serif;
+}
+main{
+	background-color: #FFFFFF;
+}
+header, footer{
+	background-color: #594918;
+	color: #F2C53D;
+}
+
+.btn-primary{
+	background-color: #F2C53D;
+	color: #594918;
+	border-color: #d8af34;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+	background-color: #d8af34;
+	color: #594918;
+	border-color: #F2C53D;
+}
+h1, h2{
+	font-family: 'Lobster Two', cursive;
+	font-family: 'Cowboys', serif;
+}
+h2{
+	text-align: center;
+}
+.playDemo{
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 0.375rem 12rem;
+}
+#iconGames i{
+	font-size: 2rem;
+}
+
+.review{
+	margin-bottom: .25em;
+}
+.review img{
+	border-radius: 50%;
+}
+.review .usernmae{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+footer i{
+	padding-left: .5em;
+	font-size: 1.5em;
+}
+footer i.bi-facebook{
+	color: #4267B2;
+}
+footer i.bi-twitter{
+	color: #00acee;
+}
+footer i.bi-youtube{
+	color: #FF0000;
+}
+.smallerText{
+	font-size: .8em;
+}
+
+/* MEDIA QUERY - Alwasy last in our stylesheeets */
+@media (min-width: 340px) {
+	.smallerText{
+		font-size: 1em;
+	}
+}
+
+/* @media (min-width: 340px) and (max-width: 360px) { } */
